@@ -35,6 +35,8 @@ if (password.length < 8){
     messages.push("Password should be 8 or more characters")
 }
 
+feedbackDiv.style.display = "block";
+
 if (isValid === true) {
   feedbackDiv.textContent = 'Registration successful!';
   feedbackDiv.style.color = '#28a745';
