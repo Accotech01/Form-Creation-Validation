@@ -2,7 +2,7 @@ const form = document.getElementById("registration-form");
 
 const feedbackDiv = document.getElementById("form-feedback")
 
-form.addEventListener("submit", function(event){
+form.addEventListener("DOMContentLoaded", function(event){
     event.preventDefault()
 
     const username = document.getElementById("username").value.trim();
